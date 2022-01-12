@@ -1,0 +1,36 @@
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo-container{
+    display: flex;
+}
+
+
+
+.footer-logo-container p{
+    display: flex;
+    width: 800px;
+    align-items: center;
+    font-size: 13px;
+}
+
+.footer-social-container{
+    display: flex;
+    align-items: center;
+}
+
+.footer-social-container .social{
+    width: 30px;
+    height: 30px;
+    padding-left: 40px;
+}
+
+.footer-social-container .social-text{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 10px;
+}

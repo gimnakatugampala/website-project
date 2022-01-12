@@ -1,0 +1,29 @@
+
+.explore{
+    height: 100vh;
+}
+
+.title{
+    font-size: 36px;
+    padding: 30px;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    grid-area: 10px;
+}
+
+.container{
+    margin: 10px;
+}
+
+.container img{
+    width: 160px;
+    height: 151px;
+}
+
+.container h1{
+    font-size: 36px;
+}

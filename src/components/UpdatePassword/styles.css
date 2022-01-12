@@ -1,0 +1,72 @@
+
+
+.nav-logo{
+    height: 77px;
+    width: 90px;
+    left: 0px;
+    top: 1px;
+    border-radius: 0px;
+    position: absolute;
+    width: 90px;
+    height: 77px;
+    left: 0px;
+    top: 1px;
+    background: url('../../../assets/Screen_Shot_2021-12-28_at_5.42\ 1.png');
+}
+
+.update-password-container{
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.update-password-container .update-title{
+    font-size: 40px;
+
+}
+
+.update-password-container p{
+    font-size: 30px;
+}
+
+.update-email-container{
+    position: relative;
+}
+
+.update-email-container img{
+    position: absolute;
+    top: 25px;
+    margin-left: 10px;
+    width: 40px;
+}
+
+.update-email-container input{
+    width: 600px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 59px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.update-email-button-container{
+    justify-content:space-between;
+}
+
+.update-email-button-container button{
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 59px;
+    height: 45px;
+    margin-top: 40px;
+}

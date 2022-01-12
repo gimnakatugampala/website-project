@@ -1,0 +1,25 @@
+
+.sub-main-container{
+    background: #efefef;
+}
+
+
+.list-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 90vw;
+    margin: 20px;
+}  
+
+
+.list-container ul li {
+    list-style: none;
+    padding-bottom: 5px;
+    text-align: left;
+    line-height: 28px;
+}
+
+.list-container ul li a{
+    text-decoration: none;
+    color: #000;
+}  
