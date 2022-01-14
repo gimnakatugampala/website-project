@@ -12,19 +12,19 @@ export default class UpdatePassword extends Component {
 
                 <div className='update-password-container'>
                     <img src={UpdateImage} alt='Update' />
-                    <h1 className='update-title'>Update Your Password</h1>
+                    <h1 className='update-title display-1'>Update Your Password</h1>
 
-                    <p>Enter your username or email address and select Send Email.</p>
-                    <p>User name or Email.</p>
+                    <p className='fs-4'>Enter your username or email address and select Send Email.</p>
+                    <p className='fs-4'>User name or Email.</p>
 
                     <div className='update-email-container'>
                         <img src={EmailImage} alt="Email-One" />
-                        <input placeholder='Login With Email Address' />
+                        <input placeholder='Login With Email Address' className='display-3 rounded-pill border border-dark' />
                     </div>
 
                     <div className='update-email-button-container'>
-                        <button>Cancel</button>
-                        <button>Send Email</button>
+                        <button className='rounded-pill border border-dark'>Cancel</button>
+                        <button className='rounded-pill border border-dark'>Send Email</button>
                     </div>
 
                 </div>

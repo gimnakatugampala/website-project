@@ -12,15 +12,15 @@ export default class SignUp extends Component {
             <div className='signup-container'>
                 <div className="nav-logo"></div>
 
-                <h1>Sign up now</h1>
+                <h1 className='display-1 mb-3'>Sign up now</h1>
 
                 <div className='signup-button-container'>
-                    <button>
+                    <button className='display-3 rounded-pill border border-dark'>
                         <img src={Google} alt="google" />
                         Continue with Google
                     </button>
 
-                    <button>
+                    <button className='display-3 rounded-pill border border-dark'>
                         <img src={Apple} alt="apple" />
                         Continue with Apple
                     </button>
@@ -34,7 +34,7 @@ export default class SignUp extends Component {
 
 
 
-                    <button>
+                    <button className='display-3 rounded-pill border border-dark'>
                     <img src={Email} alt="email" />
                         ABC@email.com
                     </button>
@@ -46,7 +46,7 @@ export default class SignUp extends Component {
                         <h1>Enter Valid Email Address</h1>
                     </div> */}
 
-                    <button className='signup-email'>
+                    <button className='signup-email display-3 rounded-pill border border-dark'>
                         Sign up with email Address
                     </button>
 
