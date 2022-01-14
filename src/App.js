@@ -18,9 +18,9 @@ function App() {
       </Router> */}
      {/* <Welcome /> */}
      {/* <SignUp /> */}
-     <MainLogin />
+     {/* <MainLogin /> */}
      {/* <SecondLogin /> */}
-     {/* <ThirdLogin /> */}
+     <ThirdLogin />
     </div>
   );
 }
