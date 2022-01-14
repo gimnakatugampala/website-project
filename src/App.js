@@ -11,14 +11,14 @@ import UpdatePassword from './components/UpdatePassword/UpdatePassword';
 function App() {
   return (
     <div>
-      <Router>
+      {/* <Router>
         <Routes>
         <Route path="/" element={<Welcome />} />
         </Routes>
-      </Router>
+      </Router> */}
      {/* <Welcome /> */}
      {/* <SignUp /> */}
-     {/* <MainLogin /> */}
+     <MainLogin />
      {/* <SecondLogin /> */}
      {/* <ThirdLogin /> */}
     </div>
