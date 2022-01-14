@@ -19,8 +19,8 @@ function App() {
      {/* <Welcome /> */}
      {/* <SignUp /> */}
      {/* <MainLogin /> */}
-     {/* <SecondLogin /> */}
-     <ThirdLogin />
+     <SecondLogin />
+     {/* <ThirdLogin /> */}
     </div>
   );
 }
